@@ -7,7 +7,13 @@ const router = Router();
 //router.route('/').post( agregar logica al controlador)
 router
   .route("/")
-  .get(cafeteriaCtrl.getPrueba)
+  .get(cafeteriaCtrl.listarProductor)
   .post(cafeteriaCtrl.crearProducto);
+
+router
+  .route("/:id")
+  .delete(cafeteriaCtrl.eliminarProducto)
+  .put(cafeteriaCtrl.editarProducto)
+  .get(cafeteriaCtrl.obtenerProducto);
 
 export default router;
