@@ -11,7 +11,7 @@ router
   .post(cafeteriaCtrl.crearProducto);
 
 router
-  .route("/:id")
+  .route("/:idProd")
   .delete(cafeteriaCtrl.eliminarProducto)
   .put(cafeteriaCtrl.editarProducto)
   .get(cafeteriaCtrl.obtenerProducto);

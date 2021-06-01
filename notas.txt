@@ -1,3 +1,13 @@
 npm install -D nodemon
 npm install -D (dependencia de desarrollo)
 npm install -D (dependencia global)
+el "/:id" o lo que ponga es el parametro que voy a usar
+por lo tanto debe ser exactamente igual cuando lo utilizo en las funciones de busqueda
+
+Equivalencia NoSQL con SQL
+Colecion=Tabla
+Documento=Registro
+Modelo=como se estructura la tabla
+
+El _id que luego agrego es un parametro del objeto que me es devuelto por la base de datos
+por tal motivo DEBO MODIFICAR EN EL CODIGO ESE ID que es diferente al "id" que utilizamos en jsonserver
